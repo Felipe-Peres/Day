@@ -15,10 +15,11 @@
     <link href="section2img/favicontop.png" rel="shortcut icon" type="image/x-icon">
     <link href="https://uploads-ssl.webflow.com/60db5e59f76ae577e9f50d42/636aa2348c6670397d0073bd_favicon-256x256.svg" rel="apple-touch-icon">
     <meta name="theme-color" content="#0E1012">
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
     
-    <!-- Language switcher --> 
-    <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,"languages":["en","ja","pt"],"wrapper_selector":".gtranslate_wrapper","horizontal_position":"right","vertical_position":"bottom",}</script>
-<script src="https://cdn.gtranslate.net/widgets/latest/popup.js" defer></script>
+    <!--===== Boxicons CSS =====-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
     <!-- Theme switcher -->
     <script>
@@ -38,7 +39,11 @@
         html {
             scroll-behavior: initial;
         }
-
+        
+        .container.footer-container {
+    z-index: -1;
+    position: relative;
+}
         html,
         body {
             width: 100%;
@@ -520,8 +525,8 @@ data-easing2="ease-in-quart"
 role="banner"
 class="nav w-nav">
 <div class="container nav-container">
-    <a href="index.html"aria-current="page" class="nav-logo w-nav-brand w--current"><img src="img/faviconmenu.png"></a>
-<nav role="navigation" class="nav-menu w-nav-menu">
+    <a href="index.html"aria-current="page" class="nav-logo w-nav-brand w--current">Dayanne</a>
+    <nav role="navigation" class="nav-menu w-nav-menu">
 <div class="nav-menu-grid">
 <nav
 id="w-node-_3f5bd8a3-c0c8-4372-07aa-9cebb53656ac-b53656a5"
@@ -541,7 +546,7 @@ class="nav-menu-item-wrapper">
 
 <a
     href="https://wa.me/8025464594"
-    class="button nav-button w-button">Contato</a>
+    class="button nav-button w-button">Contact</a>
 
 </nav>
 </div>
@@ -569,8 +574,28 @@ aria-expanded="false">
 <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
 </div>
 <main>
-    <div class="gtranslate_wrapper" class="button nav-button w-button">linguagens</div>
-<header class="header template-header">
+    <div class="select-menu">
+        <ul class="options">
+            <li class="option">
+                <i class="bx"></i>
+                <a href="section2PT.html" class="option-text">Portugues</a>
+            </li>
+            <li class="option">
+                <i class="bx"></i>
+                <a href="section2JP.html" class="option-text">日本語</a>
+            </li>
+            <li class="option">
+                <i class="bx"></i>
+                <a href="section2.html" class="option-text">English</a>
+            </li>
+        </ul>
+        <div class="select-btn">
+            <span class="option-text">English</span>
+            <i class="bx bx-chevron-down"></i>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <header class="header template-header">
 <div class="container w-container">
 <div class="photo-case-header">
     <h2>Felipe <br>&<br>Bianca</h2>
