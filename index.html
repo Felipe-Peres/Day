@@ -41,6 +41,10 @@
         html {
             scroll-behavior: initial;
         }
+        .container.footer-container {
+    z-index: -1;
+    position: relative;
+}
 
         html,
         body {
@@ -69,7 +73,7 @@
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 100;
 }
 
 .dropdown-content a {
@@ -267,6 +271,7 @@
                 .footer-email:hover .footer-email-detail {
                     margin-left: 8px;
                     margin-right: 8px;
+                    z-index: -1;
                 }
 
                 .about-divider,
@@ -637,7 +642,7 @@
     
         <a
         href="https://wa.me/8025464594"
-        class="button nav-button w-button">Contato</a>
+        class="button nav-button w-button">Contact</a>
     
     </nav>
     </div>
@@ -677,11 +682,11 @@
                 </li>
                 <li class="option">
                     <i class="bx"></i>
-                    <span class="option-text">日本語</span>
+                    <a href="indexJP.html" class="option-text">日本語</a>
                 </li>
                 <li class="option">
                     <i class="bx"></i>
-                    <span class="option-text">English</span>
+                    <a href="index.html" class="option-text">English</a>
                 </li>
             </ul>
             <div class="select-btn">
@@ -841,7 +846,7 @@
                                 </div>
                                 <div class="photo-cms-meta-title">
                                     <h2>Felipe <br>&<br> Bianca</h2>
-                                    <a href="section2.html"class="button w-button">see case study</a>
+                                    <a href="section2.html"class="button w-button">Galery</a>
                                 </div>
                                 <div class="photo-cms-meta-palette">
                                     <div class="photo-cms-palette-code w-embed">
@@ -895,7 +900,7 @@
                         <div class="motion-cms-images"
                             style="will-change: transform; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(20deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
                             <a aria-label="See case study" id="w-node-_5a63b183-3d0a-d315-e32e-3b509238c6e1-f6160641"
-                                href="/motion/amelia" class="motion-cms-image-wrapper main w-inline-block"><img
+                                href="video.html" class="motion-cms-image-wrapper main w-inline-block"><img
                                     src="img/img3.jpg"
                                     loading="lazy" alt=""                                    class="motion-cms-image"
                                     style="will-change: transform; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
@@ -929,7 +934,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <a href="/motion/amelia" class="button for-motion-cms w-button">See case study</a> -->
                     </div>
                 </div>
             </div>

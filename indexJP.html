@@ -21,6 +21,9 @@
     <link href="img/favicontop.png" rel="shortcut icon" type="image/x-icon">
     <link href="https://uploads-ssl.webflow.com/60db5e59f76ae577e9f50d42/636aa2348c6670397d0073bd_favicon-256x256.svg" rel="apple-touch-icon">
     <meta name="theme-color" content="#0E1012">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaisei+Tokumin&display=swap" rel="stylesheet">
 
 
     <!-- Theme switcher -->
@@ -41,6 +44,10 @@
         html {
             scroll-behavior: initial;
         }
+        .container.footer-container {
+    z-index: -1;
+    position: relative;
+}
 
         html,
         body {
@@ -611,7 +618,7 @@
     role="banner"
     class="nav w-nav">
     <div class="container nav-container">
-        <a href="index.html"aria-current="page" class="nav-logo w-nav-brand w--current">Dayanne</a>
+        <a href="index.html"aria-current="page" class="nav-logo w-nav-brand w--current" style="">ダイアネ</a>
     <nav role="navigation" class="nav-menu w-nav-menu">
     <div class="nav-menu-grid">
     <nav
@@ -627,7 +634,7 @@
     
     <a
     href="#section1"
-    class="button nav-button w-button">Portifolio</a>
+    class="button nav-button w-button">Galery</a>
     
     <a
         href="https://www.instagram.com/tanabe_dayanne/"
@@ -637,7 +644,7 @@
     
         <a
         href="https://wa.me/8025464594"
-        class="button nav-button w-button">Contato</a>
+        class="button nav-button w-button">Contact</a>
     
     </nav>
     </div>
@@ -685,7 +692,7 @@
                 </li>
             </ul>
             <div class="select-btn">
-                <span class="sBtn-text">English</span>
+                <span class="sBtn-text">日本語</span>
                 <i class="bx bx-chevron-down"></i>
             </div>
         </div>
@@ -697,26 +704,22 @@
                     <div class="header-card-title">
                         <div class="header-wrapper">
                             <div class="header-h1-wrapper">
-                                <h1 style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); filter: blur(0px); transform-style: preserve-3d;"
-                                    class="header-h1 _1">Dayanne&nbsp;</h1>
+                                <h1 style=" font-family: 'Kaisei Tokumin', serif;font-size: 40px;transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); filter: blur(0px); transform-style: preserve-3d;"
+                                    class="header-h1 _1"><strong>プランナー &</strong>&nbsp;</h1>
                             </div>
                             <div class="header-h1-wrapper">
                                 <h1 class="header-h1 _2"
-                                    style="filter: blur(0px); transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                                    Tanabe&nbsp;</h1>
+                                    style=" font-family: 'Kaisei Tokumin', serif;font-size: 40px; filter: blur(0px); transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                                    <strong>セレモニアリスト</strong>&nbsp;</h1>
                             </div>
                             <div class="header-h1-wrapper">
-                                <h1 style="filter: blur(0px); transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                                    class="header-h1 _3">Ceremonialist&nbsp;</h1>
+                                <h1 style="font-family: 'Kaisei Tokumin', serif;line-height: 300%; font-size: 40px;filter: blur(0px); transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
+                                    class="header-h1 _3"><strong>タナベ・ダイアネ</strong>&nbsp;</h1>
                             </div>
-                            <div class="header-h1-wrapper">
-                                <h1 style="filter: blur(0px); transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                                    class="header-h1 _4">&amp;&nbsp;</h1>
-                            </div>
-                            <div class="header-h1-wrapper">
+                            <!-- <div class="header-h1-wrapper">
                                 <h1 style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); filter: blur(0px); transform-style: preserve-3d;"
-                                    class="header-h1 _5">Planner</h1>
-                            </div>
+                                    class="header-h1 _5">ダイアネ</h1>
+                            </div> -->
                         </div>
                     </div>
                     <div 
@@ -739,23 +742,23 @@
             <div class="container w-container" id="sobre" style="height: 50%;">
                 <div class="section-title">
                     <div class="intro-wrapper">
-                        <h3>From yes to I do&nbsp;</h3>
-                        <h3>Lets plan the perfect wedding&nbsp;</h3>
-                        <h3>for you&nbsp;</h3>
-                        <div data-w-id="c1d0f4b1-4d02-9eb0-78fc-2b2ddc7d8c55" class="intro-dot-wrapper">
+                        <h4><strong>「イエス」から「アイドゥ」へ&nbsp;</strong></h4>
+                        <h4><strong>あなたのために&nbsp;</strong></h4>
+                        <h4><strong>完璧な結婚式を計画しましょう&nbsp;</strong></h4>
+                        <!-- <div data-w-id="c1d0f4b1-4d02-9eb0-78fc-2b2ddc7d8c55" class="intro-dot-wrapper">
                             <h3 class="intro-dot _1">.</h3>
                             <h3 class="intro-dot _2">.</h3>
                             <h3 class="intro-dot _3">.&nbsp;</h3>
-                        </div>
+                        </div> -->
                         <div class="intro-image-wrapper"><img
                                 src="img/fundo texto.png"
                                 loading="lazy" alt="" class="intro-image _3"></div>
                     </div>
-                    <div> Dayanne Tanabe, the perfect choice to make your wedding an 
-                            unforgettable experience. With years of expertise in planning dream weddings, our dedicated team will work tirelessly to ensure that every detail 
-                            is perfect. With a personalized approach and partnerships with the best vendors, we will take care of every aspect of your wedding, creating a
-                             unique and magical day. Contact us today and start your journey to the wedding of your dreams.</div>
+                    <div style="font-size: 13px;"> ダイアネ・タナベは、あなたの結婚式を忘れられない体験にするための完璧な選択肢です。夢の結婚式を計画するための長年の専門知識を持つ当社の熱心なチームは、
+                        細部にわたって完璧なものにするために、精力的に働きます。パーソナライズドなアプローチと最高の業者とのパートナーシップにより、結婚式のすべての側面を世話し、
+                        ユニークで魔法のあふれた日を作ります。今日お問い合わせいただき、夢の結婚式の旅を始めましょう。
                     </div>
+                </div>
             </div>
         </section>
         <section class="section photo wf-section">
@@ -773,12 +776,12 @@
                             </div>
                             <div class="photo-cms-wrapper">
                                 <div class="cms-meta-banner">
-                                    <div id="w-node-_21c5109d-e6cf-806a-37ab-512008b6ee3b-f6160641" class="label"><strong>March
-                                        <br>2022 <br><br></strong></div>
+                                    <div id="w-node-_21c5109d-e6cf-806a-37ab-512008b6ee3b-f6160641" class="label"><strong>3月
+                                        <br>2022年 <br><br></strong></div>
                                 </div>
                                 <div class="photo-cms-meta-title">
-                                    <h2>Gabriel <br>&<br>Larissa</h2>
-                                    <a href="section1.html"class="button w-button">Galery</a>
+                                    <h2>ガブリエル <br>&<br>ラリサ</h2>
+                                    <a href="section1JP.html"class="button w-button">Galery</a>
                                 </div>
                                 <div class="photo-cms-meta-palette">
                                     <div class="photo-cms-palette-code w-embed">
@@ -837,11 +840,11 @@
                             <div class="photo-cms-wrapper">
                                 <div class="cms-meta-banner">
                                     <div id="w-node-_21c5109d-e6cf-806a-37ab-512008b6ee3b-f6160641" class="label">
-                                        <strong>September <br>2022 <br><br></strong></div>
+                                        <strong>9月 <br>2022年 <br><br></strong></div>
                                 </div>
                                 <div class="photo-cms-meta-title">
-                                    <h2>Felipe <br>&<br> Bianca</h2>
-                                    <a href="section2.html"class="button w-button">see case study</a>
+                                    <h2>フェリペ <br>&<br> ビアンカ</h2>
+                                    <a href="section2JP.html"class="button w-button">Galery</a>
                                 </div>
                                 <div class="photo-cms-meta-palette">
                                     <div class="photo-cms-palette-code w-embed">
@@ -890,12 +893,12 @@
             <div class="motion-cms-list-wrapper w-dyn-list">
                 <div role="list" class="motion-cms-list w-dyn-items">
                     <div role="listitem" class="motion-cms-item w-dyn-item">
-                        <h2 class="motion-cms-title">Make Memories...</h2>
+                        <h2 class="motion-cms-title">思い出を作ろう...</h2>
                         <br>
                         <div class="motion-cms-images"
                             style="will-change: transform; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(20deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
                             <a aria-label="See case study" id="w-node-_5a63b183-3d0a-d315-e32e-3b509238c6e1-f6160641"
-                                href="/motion/amelia" class="motion-cms-image-wrapper main w-inline-block"><img
+                            href="video.html" class="motion-cms-image-wrapper main w-inline-block"><img
                                     src="img/img3.jpg"
                                     loading="lazy" alt=""                                    class="motion-cms-image"
                                     style="will-change: transform; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
@@ -952,7 +955,7 @@
             </div>
             <div class="w-layout-grid smallprints-grid">
                 <div id="w-node-_233bae08-454a-fc4c-62f3-5983b5478e6a-8709f171" class="footer-smallprints">
-                    <div class="label smallprint">Dayanne Tanabe <br> 2023 <br>  </div>                                                                </div>
+                    <div class="label smallprint">Dayanne Tanabe <br> 2023年 <br>  </div>                                                                </div>
                 <div id="w-node-_7ea94df0-5362-ce22-1209-86158709f178-8709f171" class="w-layout-grid footer-socials">                       
                         <a rel="noreferrer noopener"
                         href="https://www.instagram.com/tanabe_dayanne/" target="_blank"
