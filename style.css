@@ -97,3 +97,48 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  .project {
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .project-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .project-image {
+    width: 50%;
+    object-fit: cover; /* Isso vai ajustar a imagem para cobrir o espaço sem distorção */
+    border-radius: 8px; /* opcional, para dar bordas arredondadas na imagem */
+  }
+  
+  .project-description {
+    width: 45%;
+  }
+  
+  .project-description h2 {
+    font-size: 24px;
+    color: #BA8B6F;
+  }
+  
+  .project-description p {
+    font-size: 16px;
+    color: #BA8B6F;
+  }
+  @media (max-width: 768px) {
+  .project-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-image {
+    width: 90%;
+    margin-bottom: 15px;
+  }
+
+  .project-description {
+    width: 90%;
+  }
+}
